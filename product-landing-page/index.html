@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quantum Coffee Roasters</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo-container">
+        <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Quantum Coffee Logo" />
+      </div>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how-it-works">How It Works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="hero">
+        <h2>Master Your Morning Routine</h2>
+        <form id="form" action="https://www.freecodecamp.org/email-submit">
+          <input id="email" type="email" name="email" placeholder="Enter your email address" required />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      <section id="features">
+        <div class="feature-item">
+          <h3>Fast Delivery</h3>
+          <p>Fresh beans roasted to order and shipped to your door the very same day.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Quality Assurance</h3>
+          <p>Every single batch is tested to ensure peak flavor profiles and perfect acidity.</p>
+        </div>
+      </section>
+
+      <section id="how-it-works">
+        <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/jZ02C1FhZ1I" title="Coffee Roasting Video" frameborder="0" allowfullscreen></iframe>
+      </section>
+
+      <section id="pricing">
+        <div class="price-box">
+          <h3>Basic</h3>
+          <h2>$15/mo</h2>
+          <p>1 Bag per month</p>
+          <button class="btn">Select</button>
+        </div>
+        <div class="price-box">
+          <h3>Pro</h3>
+          <h2>$25/mo</h2>
+          <p>2 Bags per month</p>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
