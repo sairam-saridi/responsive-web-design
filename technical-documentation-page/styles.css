@@ -1,12 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  /* Make space for the fixed navbar on the left so content isn't hidden */
   padding-left: 270px;
   line-height: 1.5;
 }
 
-/* --- TEST 21: Navbar fixed to the left edge --- */
 #navbar {
   position: fixed;
   top: 0;
@@ -15,7 +13,6 @@ body {
   height: 100%;
   background-color: #f4f4f4;
   border-right: 2px solid #ccc;
-  /* Scroll navbar if there are too many links for the screen height */
   overflow-y: auto; 
 }
 
@@ -58,9 +55,7 @@ code {
   margin: 10px 0;
 }
 
-/* --- TEST 22: At least one Media Query --- */
 @media (max-width: 800px) {
-  /* On small screens, move navbar to the top instead of fixed left */
   #navbar {
     position: relative;
     width: 100%;
@@ -70,6 +65,6 @@ code {
   }
   
   body {
-    padding-left: 0; /* Remove the side padding so content is centered */
+    padding-left: 0;
   }
 }
